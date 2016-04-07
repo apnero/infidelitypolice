@@ -1,0 +1,65 @@
+body { background: #262626 url(images/body-background.jpg) top left repeat-x; margin:5px 0 0 0;padding:0; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px;color:#484949;}
+img {border:0; outline:none;}
+a {border:0; outline:none;color:#1F7DB3;}
+h1,h2,h3,h4 {padding:0;margin:0;font-weight:normal;}
+
+/* Classes */
+.center {text-align:center;}
+.notice {color:#467096;font-size:14px;}
+.link-heads {color:black; font-size:14px;font-weight:bold;}
+.link-subs {color:#1f7db3;font-weight:bold;}
+.special {color:#1f7db3;}
+.special2 {display:inline;color:#1f7db3;}
+.name {font-size: 16px;font-family: Times New Roman;color:#1f7db3;}
+.clearfix {content: ".";display: block;height: 0;clear: both; visibility: hidden;}
+#aboutipolice {display: none;font-size:10px;float:right;padding:10px;}
+	#aboutipolice p {margin:0;padding:0; text-align: justify;}
+.plus {color: #CCC;font-size: 10px; text-align:right;float:right;}
+
+/* Header */
+#header { background:url(../images/header-background.jpg) top left no-repeat; margin:0; padding:0; height:139px;width:900px;clear:both;display:block;}
+	#header .logo {margin: 0px 0 0 0px; float:left;}
+	#header a {text-decoration:none;}
+.page-title {color:#308BC4;font-size:10px; height:25px;clear:both;display:block;width:856px;text-align:right;}
+#logo-navigation {width:867px; margin:auto;}
+ul#nav {font-size:14px;float:right;margin:0;text-align:right;}
+	ul#nav li {margin:5px 18px 0 0; float:left; list-style-type:none;}
+	ul#nav li a {color:#157DB8;}
+	ul#nav a:hover, ul#nav a:focus, ul#nav a:active, ul#nav li a.current {color:#4E4E4E;}
+li.telephone {clear:both;display:block; float:none !important;padding:16px 0 5px 0; font-weight:bold;color:#157DB8;font-size:18px;}
+
+/* Structures */
+#splash {width:900px;overflow:hidden;line-height:0;}
+#flash {margin:0 auto;}
+#container {margin: 0 auto; width:900px; background:white;}
+.content-start {clear:both;display:block;}
+#contents {background:url(../images/contents-back-2.jpg) bottom no-repeat; clear:both;display:inline-block; width:900px;margin:-36px 0 0 0;}
+#content-1 {background:url(images/contents-back-1.jpg) top left no-repeat;clear:both;display:block;height:41px;z-index:10000;}
+
+/* Sidebar */
+#sidebar {width:173px;float:left;padding:0px 6px 15px 21px;background: url(../images/sidebar-back.gif) top right repeat-y;}
+	#sidebar a {text-decoration:none;}
+	#sidebar h2 {color:#454545;font-size:18px; margin: 0 0 15px 0;}
+	#sidebar ul {margin:0 0 15px -7px;padding:0;list-style-type:none;}
+		#sidebar ul li {margin-bottom:10px;}
+			#sidebar ul li li {margin:0 0 0 15px;}
+			#sidebar ul li a {display:block;padding:3px 0 3px 27px;font-size:115%;color:#1F7DB3;}
+			#sidebar ul li li a {color:#1F7DB3;}
+			#sidebar ul li a.current,
+			#sidebar ul li a:hover {background:url(../images/sidebar_bullet.gif) 0px 0px no-repeat;color:#4F4F4F;}
+			#sidebar ul li li a.has_subs,
+			#sidebar ul li li a.current,
+			#sidebar ul li li a:hover {background:none;color:#6AB0D9;}
+
+/* Content */
+#content {width:610px;float:left;padding:0px 50px 15px 21px; line-height:140%;background:url(../images/content-back.gif) top left repeat-y;margin:0 0 0 -3px;}
+	#content h1 {color:#1F7DB3; font-size:24px; margin-bottom:15px; line-height:23px;}
+	#content a {text-decoration:underline;}
+	#content a:hover {text-decoration:none;}
+	
+/* Footer */
+#footer {background: #262626 url(../images/footer_bg.jpg) top right no-repeat;color:#7D7D7D;clear:both;display:block;padding: 0 0 10px 0;}
+#footer a {color:#7D7D7D;text-decoration:none;}
+#footer a:hover, #footer a:focus, #footer a:active, #footer a.current {color:#1C638F;}
+#footer ul {margin:0;padding:15px;}
+#footer ul li {margin:0 15px;float:left;list-style-type:none;}
